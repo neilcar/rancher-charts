@@ -11461,13 +11461,14 @@ entries:
   - annotations:
       catalog.cattle.io/auto-install: rancher-logging-crd=match
       catalog.cattle.io/certified: rancher
-      catalog.cattle.io/deploys-on-os: windows
+      catalog.cattle.io/deploys-on-os: linux,windows
       catalog.cattle.io/display-name: Logging
       catalog.cattle.io/kube-version: '>= 1.23.0-0 < 1.28.0-0'
       catalog.cattle.io/namespace: cattle-logging-system
       catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/os: linux
       catalog.cattle.io/provides-gvr: logging.banzaicloud.io.clusterflow/v1beta1
-      catalog.cattle.io/rancher-version: '>= 2.8.0-0 < 2.9.0-0'
+      catalog.cattle.io/rancher-version: '>= 2.6.0-0 < 2.9.0-0'
       catalog.cattle.io/release-name: rancher-logging
       catalog.cattle.io/type: cluster-tool
       catalog.cattle.io/ui-component: logging
